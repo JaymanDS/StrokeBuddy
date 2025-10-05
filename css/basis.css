@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.AD {
+    background-color: aqua;
+    /* background-image: image(); */
+    border: 10px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* ...existing code... */
+.row {
+    display: flex;
+    gap: 20px; /* ruimte tussen de divs */
+}
+/* ...existing code... */
+.infovak {
+    background-color: aqua;
+    /* background-image: image(); */
+    border: 10px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+   /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.afbeeldingvak {
+    background-color: transparent;
+    /* background-image: image(); */
+    border: 10px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+   /* width: 300px; /* vaste breedte voor de afbeelding div */
+   /* height: 300px; /* vaste hoogte voor de afbeelding div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.afbeeldingvak img {
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.midden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+.koop {
+    background-color: transparent;
+    border: 5px solid transparent;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+button.koop:hover {
+    background-color: aqua;
+}
+
+.kies-product {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    border: 5px solid transparent;
+}
+
+.info {
+  padding: 20px;
+  background-color: blue; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.button {
+    text-align: venter;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+
+

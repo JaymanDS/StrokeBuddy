@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Winkel css/basis.css" type="text/css">
+    <link rel="stylesheet" href="css/menubalk.css" type="text/css">
+    <title>JDS Projects Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            display: flex;
+        }
+        .div1, .div2 {
+            width: 50%;
+            padding: 20px;
+            background-color: rgba(35, 218, 44, 0.295);
+            border: 1px solid #ccc;
+            margin: 10px;
+            border-radius: 8px;
+            text-align: center;
+           
+        }
+        @media (max-width: 700px) {
+            .container {
+                flex-direction: column;
+            }
+            .div1, .div2 {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+   
+   </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Welkom bij JDS Projects</h1>
+    </header>
+    <main>
+        <h2>Onze Projecten</h2>
+        <div class="container">
+            <div class="div1">
+                <h3>Operatie Mocktail</h3>
+                <p>Proef een lekkere Mocktail</p>
+                <a href="https://operatie-mocktail.my.canva.site/" class="button">Bezoek de website</a>
+            </div>
+            <div class="div2">
+                <h3>StrokeBuddy</h3>
+                <p>Revalideer nu met onze app</p>
+            </div>
+        </div>
+        <h2>Pagina's te ondekken</h2>
+        <div class="container">
+            <div class="div1">
+                <h3>Over Ons</h3>
+                <p>Leer meer over ons team en onze missie.</p>
+            </div>
+            <div class="div2">
+                <h3>Nieuws</h3>
+                <p>Ken jij JDS projects</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
