@@ -6,17 +6,5 @@ body {
 
 
 
-.button {
-    text-align: venter;
-    color: white;
-    background-color: blue;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: darkblue;
-}
 
 
