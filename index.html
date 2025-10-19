@@ -2,111 +2,96 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
+    <title>StrokeBuddy - Home</title>
+    <link rel="stylesheet" href="Website/basis.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="Tabladicoon.png">
+    <link rel="stylesheet" href="Website/basis.css" type="text/css">
+    <link rel="stylesheet" href="Website/Menubalk.css" type="text/css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Winkel css/basis.css" type="text/css">
-    <link rel="stylesheet" href="css/menubalk.css" type="text/css">
-    <link rel="stylesheet" href="css/dropdown.css" type="text/css">
-    <link rek="stylesheet" href="button.css" type="text/css">
-    <title>JDS Projects Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f4f4f4;
+            font-family: sans-serif;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
+        body i {
+            font-size: 30px;
         }
-        main {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 900px;
-            margin: 40px auto;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        body i.groot {
+            font-size: 50px;
         }
-
-        .container {
-            display: flex;
+        .groot {
+            font-size: 50px;
         }
-        .div1, .div2 {
-            width: 50%;
-            padding: 20px;
-            background-color: rgba(35, 218, 44, 0.295);
-            border: 1px solid #ccc;
-            margin: 10px;
-            border-radius: 8px;
-            text-align: center;
-           
+        .buttonAnimation {
+            font-size: 50px;
+            height: 70px;
+            background-color: transparent;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer; 
         }
-        @media (max-width: 700px) {
-            .container {
-                flex-direction: column;
-            }
-            .div1, .div2 {
-                width: 100%;
-                margin: 10px 0;
-            }
+        .buttonAnimation:hover {
+            background-color: rgb(255, 3, 3);
         }
-   
-   </style>
+        i.buttonAnimation {
+            font-size: 50px;
+            color: white;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/bf98eed468.js" crossorigin="anonymous"></script>
+    <script src="Website/Menubalk.js"></script>
 </head>
 <body>
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            </div>
-        </div>
-    </div>
-    <header>
-        <h1>Welkom bij StrokeBuddy Helpcenter</h1>
-        
-    </header>
-    <main>
- 
-        <h2>Pagina's met hulp van de producten</h2>
-        <div class="container">
-            <div class="div1">
-                <h3>StrokeDock</h3>
-                <p>Ontdek de StrokeDock</p>
-            </div>
-            <div class="div2">
-                <h3>De armband</h3>
-                <p>De armband</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="div1">
-                <h3>De Handleiding</h3>
-                <p><a href="handleiding Strokebuddy.zip"  class="button" download>Installeer</a></p>
-            </div>
-            <div class="div2">
-                <h3>Veelgestelde vragen</h3>
-                <p>Bekijk de FAQ</p>
-            </div>
-        </div>
-        <h2>Andere Website's</h2>
-        <div class="container">
-            <div class="div1">
-                <h3>StrokeBuddy</h3>
-                <p>De App</p>
-            </div>
-            <div class="div2">
-                <h3>JDS projects</h3>
-                <p><a href="" class="button">Open</a></p>
-            </div>
-    </main>
+    <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+        <li><a href='http://'>Home</a></li>
+        <li><a href='http://'>StrokeBuddy Helpcenter</a></li>
+        <li><a class='dropdown-arrow' href='http://'>Meer info</a>
+        <ul class='sub-menus'>
+            <li><a href='http://'>Dit project</a></li>
+        </ul>
+        </li>
+        <li><a class='dropdown-arrow' href='http://'>StrokeBuddy voor Begeleiders</a>
+        <ul class='sub-menus'>
+            <li><a href='http://'>Open</a></li>
+            
+        </ul>
+        </li>
+        <li><a class='dropdown-arrow' href='http://'>Ontdek</a>
+        <ul class='sub-menus'>
+            <li><a href='http://'><i class="fa-solid fa-arrow-up-right-from-square" ></i> JDS projects</a></li>
+            <li><a href='https://www.klief.be/'><i class="fa-solid fa-arrow-up-right-from-square"></i> Klief Oostende</a></li>
+        </ul>
+        </li>
+    </ul>
+    </nav>
+   
+   
+   
+    <div>
+        <h1>Welkom bij StrokeBuddy</h1>
+        <p>Informatie van de app vind je hieronder:</p>
+        <div class="vak">
+            <div class="ribbon"><span>ONTDEK</span></div>
+            <h1>StrokeBuddy helpt mensen</h1>
+            <p>Samen met het Klief oonstende gaan we samen te werk om de mensen met een beroerte te helpen revalideren</p>
+            <p>Iedereen kan deze app gebruiken zelfs <strong>zonder begeleider</strong></p>
+            
 
+        </div>
+        <p>Besturingen met <i class="fa-brands fa-bluetooth-b"></i><!-- Bluetooth --> </p>
+        <p class="groot">Gebruik nu StrokeBuddy op je <i class="fa-solid fa-mobile-screen-button"></i> en <i class="fa-solid fa-tablet-screen-button"></i></p>
+        <div>
+            <p>Gebruik het op</p>
+            <button class="buttonAnimation" onclick="window.open(' ', '_self')">
+                <i class="fa-brands fa-google-play fa-bounce" style="color: #63E6BE;"></i>
+            </button>
+        </div>
+        <p>Begeleiders kunnen inloggen via de knop hieronder:</p>
+        <button class="buttonAnimation" onclick="window.open('login.html', '_self')">
+            <i class="fa-solid fa-sign-in-alt"></i> Inloggen
+        </button>
+    </div>
 </body>
 </html>
