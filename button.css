@@ -1,0 +1,19 @@
+.button {
+    background-color: #2a87fa;
+    color: white;
+    padding: 10px 20px;
+    border: 10px;
+}
+
+.button:hover {
+    background-color: #65aaff;
+
+}
+
+a.button {
+    text-decoration: none;
+}
+
+a.button:hover {
+    text-decoration: underline;
+}
