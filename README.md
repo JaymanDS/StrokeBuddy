@@ -1,0 +1,1 @@
+# StrokeBuddy Helpcenter
