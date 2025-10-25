@@ -3,3 +3,4 @@
 ## Kliklinks
 [Open Website](https://jaymands.github.io/StrokeBuddy/)
 ### Helpcenter
+[Open Helpcenter](https://jaymands.github.io/StrokeBuddy/helpcenter)
