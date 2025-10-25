@@ -11,5 +11,8 @@
 
 ### In Create
 
- * StrokeDock *
+ * StrokeDock
+ * App
+ * Site
+ * ...
 
